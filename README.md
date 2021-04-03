@@ -1,6 +1,6 @@
 # WELOCME
 This is the login website using the direct query database to check the username and password that correct or not
-# some that before you run the program
+# something that you must to do before run code
 1).run database script query with mysql server.
 
 2) open to code with vscode || visual studio code 
