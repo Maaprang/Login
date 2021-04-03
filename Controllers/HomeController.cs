@@ -10,7 +10,7 @@ namespace Login.Controllers
     public class HomeController : Controller
     {
 
-        private Database ConDB = new Database();
+        private Database ConDB = new Database(); // using for database
         private readonly ILogger<HomeController> _logger;
 
         public HomeController(ILogger<HomeController> logger)
@@ -60,8 +60,6 @@ namespace Login.Controllers
             HttpContext.Session.Clear();
             return RedirectToAction("Login", "Home");
         }
-
-
 
         public IActionResult Index()
         {
