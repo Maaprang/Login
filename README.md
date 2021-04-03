@@ -18,6 +18,8 @@ This is the login website using the direct query database to check the username 
 
 # We have 3 part that we want to consider
 1). folder Controllers || part of controller of web 
+
 2). folder Models || part of model that get and set
+
 3) foler Views || html5 or interface result
 
